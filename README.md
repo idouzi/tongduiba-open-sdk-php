@@ -24,11 +24,11 @@ $ composer require tongduiba/open-sdk
 
 2. 不适应 `Composer` 管理  
 
-如果你的项目不使用`Composer`管理, 可以直接下载[Release包](https://github.com/idouzi/open-sdk-php/open-sdk-php/releases) 并解压, 然后在项目中添加如下代码:  
+如果你的项目不使用`Composer`管理, 可以直接下载[Release包](https://github.com/idouzi/tongduiba-open-sdk-php/releases) 并解压, 然后在项目中添加如下代码:  
 请注意, 需要下载的是最新的 `tongduiba-open-sdk.zip` 压缩包, 而不是 `Source code`  压缩包.  
 `/path/to/` 更改为项目实际路径.   
 ``` php
-require_once '/YOUR_SDK_PATH/tongduiba-open-sdk/open-sdk/vendor/autoload.php';
+require_once '/YOUR_SDK_PATH/tongduiba-open-sdk-php/open-sdk/vendor/autoload.php';
 ``` 
 
 ## 使用
@@ -61,6 +61,7 @@ require_once './vendor/autoload.php';
 
 $appKey = 'YOUR_APP_KEY';
 $appSecret = 'YOUR_APP_SECRET';
+$apiVersion = '0.1.0';
 
 $params = ['unionId' => 'Your APP User’s UnionId', 'memberLevel' => 'To Change Member’s Level'];
 $response = $client->get($method, $apiVersion, $params);

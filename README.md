@@ -80,8 +80,6 @@ The MIT License. Please see [License File](LICENSE) for more information.
 [ico-version]: https://img.shields.io/packagist/v/tongduiba/open-sdk.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/tongduiba/open-sdk.svg?style=flat-square
-[ico-travis]: https://api.travis-ci.org/tongduiba/open-sdk-php.svg
 
 [link-packagist]: https://packagist.org/packages/tongduiba/open-sdk
 [link-downloads]: https://packagist.org/packages/tongduiba/open-sdk
-[link-travis]: https://travis-ci.org/tongduiba/open-sdk-php
